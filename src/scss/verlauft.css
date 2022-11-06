@@ -1,0 +1,54 @@
+
+.mtitl {
+	text-align: center;
+	font-family: sans-serif;
+}
+table {
+	background-color: palevioletred;
+}
+h3 {
+	text-align: center;
+}
+.b0 {
+	margin-left: 17%; 
+	color: red;
+	font-size: 20px;
+	padding: 8px;
+	background-color: black;
+}
+.b1 {
+	margin-left: 17%; 
+	color: yellow;
+	font-size: 20px;
+	padding: 8px;
+	background-color: black;
+}
+.i1 {
+	border: dotted 3px red;
+	padding: 6.5px;
+	margin-left: 5%;
+}
+.tz {
+	background-color: black;
+	color: white;
+}
+table, tr, th, td {
+	border:  solid 1px yellow;
+	padding:  5px;
+}
+tr, th, td {
+	text-align: center;
+}
+.tete {
+	background-color: bisque;
+	padding: 15px;
+}
+.feiertag {
+	background-color: white;
+}
+.frei {
+	background-color: cyan;
+}
+.sonntag {
+	background-color: red;
+}
