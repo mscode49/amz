@@ -100,7 +100,9 @@ body {}
 #btn_all ul li:hover > a{
 	color: white;
 }
-
+table {
+	margin-left: 18%;
+}
 table, tr, th, td {
 	padding:  10px;
 	border: solid 1px;
