@@ -1,220 +1,301 @@
 <!DOCTYPE html>
-
-    <head>
-
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link rel="stylesheet" type="text/css" href="../scss/verlauft.css">
-        <script src="../../lib/jquery/jquery.min.js"></script>
-        <script src="../smjs/verlauft.qr.js"></script>
-
-    </head>
-
 <html>
-    <body>
-    	<h1 class="mtitl">DAS IST HIER MEINE LAUFENDE ARBEITSTAGE </h1>
-    	<hr>
-    	<table>
-    		<h3>ERSTE WOCHE ARBEIT </h3>
-    		<b class="b0">OKTORBER 2022</b>
-    		<i class="i1"> KW [ 43 ]</i><br><br>
-    		<tr>
-    		<th class="tete"> DATUM </th>
-	        <th class="tete"> TAGE </th>
-	        <th class="tete"> ANFANG </th>
-                <th class="tete"> FEIERABEND </th>
-                <th class="tete"> RAUCH-PAUSE </th>
-                <th class="tete"> PAUSE </th>
-                <th class="tete"> TAG-ZAHL </th>
-		</tr>
-
-		    <tr>
-		    	<td> 27.10.2022 </td>
-			    <td> Donnerstag </td>
-			    <td> 15.00 </td>
-                            <td> 22.30 </td>
-                            <td> 0 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 1 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 28.10.2022 </td>
-			    <td> Freitag </td>
-			    <td> 14.19 </td>
-                            <td> 21.56 </td>
-                            <td> 2 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 2 ] </td>
-		    </tr>
-
-		    <tr class="frei">
-		    	<td> 29.10.2022 </td>
-			    <td> Samstag </td>
-			    <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-]</td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-		    </tr>	
-
-		    <tr class="sonntag">
-		    	<td> 30.10.2022 </td>
-			    <td> Sonntag </td>
-			    <td> 00.00 </td>
-                <td> 00.00 </td>
-                <td> Sonntag </td>
-                <td> Sonntag </td>
-                <td> Sonntag </td>
-		    </tr>	
-
-		    <tr class="feiertag">
-		    	<td> 31.10.2022 </td>
-			    <td> Montag </td>
-			    <td> 00.00 </td>
-                <td> 00.00 </td>
-                <td> Feiertag </td>
-                <td> Feiertag </td>
-                <td> Feiertag </td>
-		    </tr>
-		</table>
-    	<table>
-    		<h3>ZWEITE WOCHE ARBEIT </h3>
-    		<b class="b1">NOVEMBER 2022</b>
-    		<i class="i1"> KW [ 44 ]</i><br><br>
-    		<tr>
-    			<th class="tete"> DATUM </th>
-			    <th class="tete"> TAGE </th>
-			    <th class="tete"> ANFANG </th>
-			    <th class="tete"> FEIERABEND </th>
-                <th class="tete"> RAUCH-PAUSE </th>
-                <th class="tete"> PAUSE </th>
-                <th class="tete"> TAG-ZAHL </th>
-		    </tr>
-		    <tr class="frei">
-		    	<td> 01.11.2022 </td>
-			    <td> Dienstag </td>
-			    <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-]</td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 02.11.2022 </td>
-			    <td> Mittwoch </td>
-			    <td> 14.14 </td>
-                            <td> 22.38 </td>
-                            <td> 4 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 3 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 03.11.2022 </td>
-			    <td> Donnestag </td>
-			    <td> 14.19 </td>
-                            <td> 22.02 </td>
-                            <td> 5 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 4 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 04.11.2022 </td>
-			    <td> Freitag </td>
-			    <td> 14.28 </td>
-                            <td> 22.02 </td>
-                            <td> 4 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 5 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 05.11.2022 </td>
-			    <td> Samstag </td>
-			    <td> 14.31 </td>
-                            <td> 20.57 </td>
-                            <td> 4 mal</td>
-                            <td> 30 mn </td>
-                            <td class="tz"> [ 6 ] </td>
-		    </tr>
-	    </table>
-    	<table>
-    		<h3>DITTE WOCHE ARBEIT </h3>
-    		<b class="b1">NOVEMBER 2022</b>
-    		<i class="i1">KW [ 45 ]</i><br><br>
-    		<tr>
-    			<th class="tete"> DATUM </th>
-			    <th class="tete"> TAGE </th>
-			    <th class="tete"> ANFANG </th>
-			    <th class="tete"> FEIERABEND </th>
-                <th class="tete"> RAUCH-PAUSE </th>
-                <th class="tete"> PAUSE </th>
-                <th class="tete"> TAG-ZAHL </th>
-		    </tr>
-		    <tr>
-		    	<td> 07.11.2022 </td>
-			    <td> Montag </td>
-			    <td> 14.30 </td>
-                            <td> 21.00 </td>
-                            <td> [ 4 ]</td>
-                            <td> [30 mn ]</td>
-                            <td class="tz"> [ 7 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 08.11.2022 </td>
-			    <td> Dienstqg </td>
-			    <td> 14.27 </td>
-                            <td> 22.01 </td>
-                            <td> [ 3 mal-]</td>
-                            <td> [ 30 mn-]</td>
-                            <td class="tz"> [ 8 ] </td>
-		    </tr>
-
-		    <tr class="frei">
-		    	<td> 09.11.2022 </td>
-			    <td> Mittwoch </td>
-			    <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-]</td>
-                <td> [-FREI-] </td>
-                <td> [-FREI-] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 10.11.2022 </td>
-			    <td> Donnestag </td>
-			    <td> 14.27 </td>
-                            <td> 21.39 </td>
-                            <td> [-4 mal-]</td>
-                            <td> [30 mn-]</td>
-                            <td class="tz"> [ 9 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 11.11.2022 </td>
-		    	<td> Freitag </td>
-			    <td> 14.29 </td>
-                            <td> 21.27 </td>
-                            <td> [-4 mal-]</td>
-                            <td> [-30 mn-]</td>
-                            <td class="tz"> [ 10 ] </td>
-		    </tr>
-
-		    <tr>
-		    	<td> 12.11.2022 </td>
-		    	<td> Samstag </td>
-			    <td> 14.30 </td>
-                <td> 00.00 </td>
-                <td> [-? mal-]</td>
-                <td> [-? mn-]</td>
-                <td class="tz"> [ 11 ] </td>
-		    </tr>
-
-	    </table>
-    </body>
-
+    <head>
+    	<link rel="stylesheet" type="text/css" href="/test/test.css">
+    	<script src="lib/jquery/jquery.min.js"></script>
+    	<script type="text/javascript" src="test.js"></script>
+    </head>
+	<body>
+		<button id="btn0"><a href="/"> ZURÜCK ZUR HOME-PAGE </a></button>
+		<h2 class="h0">Kalender - W. [[ <b>(43)</b> ]]</h2>
+		<div>
+			<table id="mtabl0">
+				<tr>
+					<th class="dname">DATUM</th>
+					<td class="date">27.10.2022</td>
+					<td class="date">28.10.2022</td>
+					<td class="date">29.10.2022</td>
+				</tr>
+				<tr>
+					<th class="dname">TAGE</th>
+					<td class="lign">Donnerstag</td>
+					<td>Freitag</td>
+					<td>Samstag</td>
+				</tr>
+				<tr>
+					<th class="dname">ANFANG</th>
+					<td class="lign">15.00</td>
+					<td>14.19</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ZIGA-PAUSE</th>
+					<td class="lign">[ 0 ]</td>
+					<td>[ 2 ]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-PAUSE</th>
+					<td class="lign">[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">BESCHÄTIGUNG</th>
+					<td class="lign">Scan-Schulung</td>
+					<td>Mit-Vladi-L.</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">FEIERABEND</th>
+					<td class="lign">22.30</td>
+					<td>21.56</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-TAG-ZAHL</th>
+					<td class="lign">[<b>(1)</b>]</td>
+					<td>[<b>(2)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+			</table>
+		</div>
+		<br>   <hr>
+		<h2 class="h0">Kalender - W. [[ <b>(44)</b> ]]</h2>
+		<div>
+			<table id="mtabl">
+				<tr>
+					<th class="dname">DATUM</th>
+					<td class="date">31.10.2022</td>
+					<td class="date">01.11.2022</td>
+					<td class="date">02.11.2022</td>
+					<td class="date">03.11.2022</td>
+					<td class="date">04.11.2022</td>
+					<td class="date">05.11.2022</td>
+				</tr>
+				<tr>
+					<th class="dname">TAGE</th>
+					<td>Montag</td>
+					<td>Dienstag</td>
+					<td>Mittwoch</td>
+					<td>Donnestag</td>
+					<td>Freitag</td>
+					<td>Samstag</td>
+				</tr>
+				<tr>
+					<th class="dname">ANFANG</th>
+					<td>Feiertag</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>14.14</td>
+					<td>14.19</td>
+					<td>14.28</td>
+					<td>14.31</td>
+				</tr>
+				<tr>
+					<th class="dname">ZIGA-PAUSE</th>
+					<td>-- 0 --</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[ 4 ]</td>
+					<td>[ 5 ]</td>
+					<td>[ 4 ]</td>
+					<td>[ 4 ]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-PAUSE</th>
+					<td>-- 0 --</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+				</tr>
+				<tr>
+					<th class="dname">BESCHÄTIGUNG</th>
+					<td>-- 0 --</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>Mit Vladi-L.</td>
+					<td>Ta.-Draußen</td>
+					<td>Ta.-Draußen</td>
+					<td>Ta.-Draußen</td>
+				</tr>
+				<tr>
+					<th class="dname">FEIERABEND</th>
+					<td>Feiertag</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>22.38</td>
+					<td>22.02</td>
+					<td>22.02</td>
+					<td>20.57</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-TAG-ZAHL</th>
+					<td>[<b>(Feiertag)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[<b>(3)</b>]</td>
+					<td>[<b>(4)</b>]</td>
+					<td>[<b>(5)</b>]</td>
+					<td>[<b>(6)</b>]</td>
+				</tr>
+			</table>
+		</div>
+		<br>   <hr>
+		<h2 class="h0">Kalender - W. [[ <b>(45)</b> ]]</h2>
+		<div>
+			<table id="mtabl">
+				<tr>
+					<th class="dname">DATUM</th>
+					<td class="date">07.11.2022</td>
+					<td class="date">08.11.2022</td>
+					<td class="date">09.11.2022</td>
+					<td class="date">10.11.2022</td>
+					<td class="date">11.11.2022</td>
+					<td class="date">12.11.2022</td>
+				</tr>
+				<tr>
+					<th class="dname">TAGE</th>
+					<td>Montag</td>
+					<td>Dienstag</td>
+					<td>Mittwoch</td>
+					<td>Donnestag</td>
+					<td>Freitag</td>
+					<td>Samstag</td>
+				</tr>
+				<tr>
+					<th class="dname">ANFANG</th>
+					<td>14.30</td>
+					<td>14.27</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>14.27</td>
+					<td>14.29</td>
+					<td>14.30</td>
+				</tr>
+				<tr>
+					<th class="dname">ZIGA-PAUSE</th>
+					<td>[ 4 ]</td>
+					<td>[ 3 ]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[ 4 ]</td>
+					<td>[ 4 ]</td>
+					<td>[<b>(?)</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-PAUSE</th>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+					<td>[ 30 mn ]</td>
+				</tr>
+				<tr>
+					<th class="dname">BESCHÄTIGUNG</th>
+					<td>Mit-Vladi</td>
+					<td>Ta.-Draußen</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>Draußen</td>
+					<td>Drinnen</td>
+					<td>Drinnen</td>
+				</tr>
+				<tr>
+					<th class="dname">FEIERABEND</th>
+					<td>21.00</td>
+					<td>22.01</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>21.39</td>
+					<td>21.27</td>
+					<td>22.38</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-TAG-ZAHL</th>
+					<td>[<b>(7)</b>]</td>
+					<td>[<b>(8)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+					<td>[<b>(9)</b>]</td>
+					<td>[<b>(10)</b>]</td>
+					<td>[<b>(11)</b>]</td>
+				</tr>
+			</table>
+		</div>
+		<br>  <hr>
+		<h2 class="h0">Kalender - W. [[ <b>(46)</b> ]]</h2>
+		<div>
+			<table id="mtabl">
+				<tr>
+					<th class="dname">DATUM</th>
+					<td class="date">14.11.2022</td>
+					<td class="date">15.11.2022</td>
+					<td class="date">16.11.2022</td>
+					<td class="date">17.11.2022</td>
+					<td class="date">18.11.2022</td>
+					<td class="date">19.11.2022</td>
+				</tr>
+				<tr>
+					<th class="dname">TAGE</th>
+					<td>Montag</td>
+					<td>Dienstag</td>
+					<td>Mittwoch</td>
+					<td>Donnestag</td>
+					<td>Freitag</td>
+					<td>Samstag</td>
+				</tr>
+				<tr>
+					<th class="dname">ANFANG</th>
+					<td>14.30</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ZIGA-PAUSE</th>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-PAUSE</th>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">BESCHÄTIGUNG</th>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">FEIERABEND</th>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td>[<b>(?)</b>]</td>
+					<td class="frei">[<b>( FREI )</b>]</td>
+				</tr>
+				<tr>
+					<th class="dname">ARB-TAG-ZAHL</th>
+					<td>[<b>(12)</b>]</td>
+					<td>[<b>(13)</b>]</td>
+					<td>[<b>(14)</b>]</td>
+					<td>[<b>(15)</b>]</td>
+					<td>[<b>(16)</b>]</td>
+					<td class="frei">[<b>(?)</b>]</td>
+				</tr>
+			</table>
+		</div>
+		<br>  <hr>
+		<button id="btn0"><a href="/"> ZURÜCK ZUR HOME-PAGE </a></button>
+		<br>
+	</body>
 </html>
