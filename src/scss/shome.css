@@ -14,34 +14,37 @@
 		padding: 12px;
 	}
 	#btn_all .btn0 a {
-	    padding-right: 30px;
+	    padding-right: 31px;
 	    padding-left: 35px;
 	}
 	#btn_all .btn1 a {
-		padding-right: 37px;
+		padding-right: 19.5px;
+		padding-left : 20px;
 	}
 	#btn_all .btn2 a {
-		padding-right: 51.5px;
+		padding-right: 29px;
+		padding-left: 25px;
 	}
 	#btn_all .btn3 a {
-		padding-right: 91px;
+		padding-right: 46.5px;
+		padding-left : 46px;
 	}
 	#btn_all .btn4 a {
-		padding-right: 80px;
+		padding-right: 38.5px;
+		padding-left : 43px;
 	}
 	#btn_all .btn5 a {
-		padding-right: 33px;
+	  padding-right: 18px;
+	  padding-left : 18px;
 	}
 
-	.b0 {
-		margin-top: 50%;
-		text-align: center;
-	}
 }/* @media fin */
 
 
 /* #####################################################################  */
-body {}
+body {
+	text-align: center;
+}
 #titr-h1 {
 	font-size: 70px;
 	font-style: bold;
@@ -100,25 +103,30 @@ body {}
 #btn_all ul li:hover > a{
 	color: white;
 }
-table {
-	margin-left: 18%;
+.b0 {
+	font-size: 50px;
+	text-shadow: 0.5px 1px 1px black;
+	color: red;
 }
+
+
+/*  ################################################################## */
+
 table, tr, th, td {
-	padding:  10px;
-	border: solid 1px;
+  border: solid 1px;
+  padding: 10px;
 }
-.datum {
-	background-color: red;
+th {
+	font-size: 20px;
+	color    : red;
+	text-shadow: 0.9px 1px 1px yellow;
 }
-.tete, td {
-	text-align: center;
-}
-.tag {
-	background-color: cyan;
+.th1 {
+	background-color: black;
 }
 .frei {
-	background-color: blue;
+	background-color: cyan;
 }
-.freiT {
-	background-color: blue;
+.son {
+	background-color: beige;
 }
