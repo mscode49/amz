@@ -1,55 +1,51 @@
 
-.mtitl {
-	text-align: center;
-	font-family: sans-serif;
-}
-table {
-	background-color: palevioletred;
-	margin-left: 15%;
-}
-h3 {
-	text-align: center;
-}
-.b0 {
-	margin-left: 17%; 
-	color: red;
-	font-size: 20px;
-	padding: 8px;
-	background-color: black;
-}
-.b1 {
-	margin-left: 17%; 
-	color: yellow;
-	font-size: 20px;
-	padding: 8px;
-	background-color: black;
-}
-.i1 {
-	border: dotted 3px red;
-	padding: 6.5px;
-	margin-left: 5%;
-}
-.tz {
+body {
 	background-color: black;
 	color: white;
 }
-table, tr, th, td {
-	border:  solid 1px yellow;
-	padding:  5px;
+#btn0 {
+	padding: 15;
+	padding-left: 5%; padding-right: 5%;
+	background-color: white;
+	border: solid 4px yellow;
+	border-radius: 25%;
 }
-tr, th, td {
+#btn0 a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+.h0 {
+    text-align: center; 
+    border: dotted 2px red;
+    background-color: darkcyan;
+    padding: 2%;
+    margin-left : 30%;
+    margin-right: 30%;
+}
+.h0 b {
+	color: yellow;
+}
+#mtabl0 {
+   	margin-left: 31%;
+}
+#mtabl {
+   	margin-left: 19%;
+}
+#mtabl, tr, th, td {
+   	border: solid 1px;
+   	padding: 10px;
+}
+th, td {
 	text-align: center;
 }
-.tete {
-	background-color: bisque;
-	padding: 15px;
-}
-.feiertag {
+.date {
 	background-color: white;
+	color: black;
+}
+.dname {
+	color: yellow;
 }
 .frei {
-	background-color: cyan;
-}
-.sonntag {
-	background-color: red;
+	background-color: crimson;
 }
