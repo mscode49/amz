@@ -1,13 +1,10 @@
-
-let data = {
-	uhr: new Date()
-};
 $().ready( function(){
-	let titr   = $('#titr-h1'),
-	    btn    = $('#btn_all'),
-	    btnUl  = $('#btn_all ul'),
-	    btnLi  = $('#btn_all ul li'),
-	    btn_La1 = $('.btn0');
+	let titr    = $('#titr-h1'),
+	    btn     = $('#btn_all'),
+	    btnUl   = $('#btn_all ul'),
+	    btnLi   = $('#btn_all ul li'),
+	    btn_La1 = $('.btn0'),
+	    tabl    = $('table');
 
 // DEFINITION DU NAVIGATEUR CHROME 
 
@@ -59,6 +56,15 @@ if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 	
            alert("Mozila - Firefox");
         }else if ( $(window).width() >= 361 && $(window).height() > 617 ){
+
+           $('th').css({
+            'fontSize': '22px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+           $('td').css({
+            'fontSize': '18px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
            btnUl.css({
         	'marginLeft': '7.5%'
            });
@@ -70,9 +76,13 @@ if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
 	       $('.b0').css({
 		      'fontSize': '30px',
-		      'color': 'black',
-		      'textShadow': '1px 0.5px 1px red'
+		      'color': 'red',
+		      'textShadow': '1px 0.5px 1px white'
             });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           tabl.css({
+               'marginLeft': '0px'
+           });
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	   alert("Mozila - Firefox");
         }else{}
