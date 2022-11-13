@@ -9,34 +9,89 @@ $().ready( function(){
 	    btnLi  = $('#btn_all ul li'),
 	    btn_La1 = $('.btn0');
 
-	if ( $(window).width() >= 361 && $(window).height() > 617 ){
-		alert("SCREEN width"+" "+ $(window).width()+ " "+ $(window).height());
-		$('body').css({});
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-		titr.css({
-			'fontSize': '40px',
-			'border': 'solid 5px yellow'
-		});
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-        btn.css({});
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-        btnLi.css({});
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-        btn_La1.css({});
-/* ################################################################################ */
-	}else if ( $(window).width() == 360 && $(window).height() == 617 ){
-        btnUl.css({
-        	'marginLeft': '-53px'
-        });
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-		titr.css({
-			'fontSize': '35px',
-			'border': 'solid 1px yellow'
-		});
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+// DEFINITION DU NAVIGATEUR CHROME 
 
-		alert("Hier is "+ " "+ $(window).width()+ " "+ $(window).height());
-	}else{} /* FIN DE IF */
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-	//alert("Try" + data.uhr);
+if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ){
+
+// DEFINITION DU NAVIGATEUR CHROME 
+}else if(navigator.userAgent.indexOf("Chrome") != -1 ){
+	if ( $(window).width() == 360 && $(window).height() == 617 ){
+           btnUl.css({
+        	'marginLeft': '-53px'
+           });
+
+           alert("Google - Chrome");
+        }else if ( $(window).width() >= 361 && $(window).height() > 617 ){}else{}
+// DEFINITION DU NAVIGATEUR SAFARIE 
+}else if(navigator.userAgent.indexOf("Safari") != -1){
+
+// DEFINITION DU NAVIGATEUR FIREFOX 
+}else if(navigator.userAgent.indexOf("Firefox") != -1 ){
+	if ( $(window).width() == 360 && $(window).height() == 617 ){
+           btnUl.css({
+        	'marginLeft': '-53px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           titr.css({
+		'fontSize': '35px',
+		'border': 'solid 1px yellow'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+	   $('.b0').css({
+		'fontSize': '30px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+           btn.css({
+           	'marginLeft': '20%'
+           }) ;
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           $('#btn_all .btn0 a').css({
+               'paddingRight' : '30px',
+	       'paddingLeft' : '35px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           $('#btn_all .btn1 a').css({});
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           $('#btn_all .btn2 a').css({
+               'paddingRight' : '30px',
+	       'paddingLeft' : '35px'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 	
+           alert("Mozila - Firefox");
+        }else if ( $(window).width() >= 361 && $(window).height() > 617 ){
+           btnUl.css({
+        	'marginLeft': '7.5%'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+           titr.css({
+		    'fontSize': '43px',
+		    'border': 'solid 1px yellow'
+           });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+	       $('.b0').css({
+		      'fontSize': '30px',
+		      'color': 'black',
+		      'textShadow': '1px 0.5px 1px red'
+            });
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	   alert("Mozila - Firefox");
+        }else{}
+// DEFINITION DU NAVIGATEUR INTERNET EXPLOER 
+}else if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )){
+// DEFINITION DU NAVIGATEUR INCONUE
+}else{}
 });
+
+/*
+if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ){
+
+}else if(navigator.userAgent.indexOf("Chrome") != -1 ){
+
+}else if(navigator.userAgent.indexOf("Safari") != -1){
+
+}else if(navigator.userAgent.indexOf("Firefox") != -1 ){
+
+}else if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )){
+    //IF IE > 10
+}else{}
+*/
