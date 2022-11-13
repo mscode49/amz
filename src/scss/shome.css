@@ -111,7 +111,9 @@ body {
 
 
 /*  ################################################################## */
-
+table {
+	margin-left: 36%;
+}
 table, tr, th, td {
   border: solid 1px;
   padding: 10px;
