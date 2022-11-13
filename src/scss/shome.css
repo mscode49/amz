@@ -44,6 +44,10 @@
 /* #####################################################################  */
 body {
 	text-align: center;
+	background-image: url("/Amazon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 #titr-h1 {
 	font-size: 70px;
@@ -55,6 +59,12 @@ body {
 	text-align: center;
 	animation  : color 2s infinite;
 	height: 50%;
+}
+img{
+	width: 230px; height: 230px;
+	border: solid 3px;
+	border-color: yellow;
+	border-radius: 100%;
 }
 @keyframes color {
 	10%  { color: blue; }
@@ -105,30 +115,40 @@ body {
 }
 .b0 {
 	font-size: 50px;
-	text-shadow: 0.5px 1px 1px black;
+	text-shadow: 1px 2px 1px white;
 	color: red;
 }
 
 
 /*  ################################################################## */
 table {
-	margin-left: 36%;
+	margin-left: 31%;
 }
 table, tr, th, td {
-  border: solid 1px;
-  padding: 10px;
+  border: solid 3px;
+  border-color: red;
 }
 th {
-	font-size: 20px;
-	color    : red;
-	text-shadow: 0.9px 1px 1px yellow;
+	font-size: 30px;
+	padding: 10px;
+	color    : yellow;
+	text-shadow: 0.9px 1px 0.9px red;
+}
+td {
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	background-color: lightsteelblue;
+	text-shadow: 0.9px 1.5px 0.9px white;
 }
 .th1 {
 	background-color: black;
+	color: red;
 }
 .frei {
 	background-color: cyan;
 }
 .son {
-	background-color: beige;
+	background-color: black;
+	color: white;
 }
