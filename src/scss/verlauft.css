@@ -4,11 +4,11 @@ body {
 	color: white;
 }
 #btn0 {
-	padding: 15;
+	padding: 5px;
 	padding-left: 5%; padding-right: 5%;
 	background-color: white;
 	border: solid 4px yellow;
-	border-radius: 25%;
+	border-radius: 5%;
 }
 #btn0 a {
 	font-size: 20px;
