@@ -44,7 +44,7 @@
 /* #####################################################################  */
 body {
 	text-align: center;
-	background-image: url("/Amazon.png");
+	background-image: url("Amazon.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
