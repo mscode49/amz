@@ -1,0 +1,32 @@
+.mh1 {
+	font-size: 70px;
+	border: solid 1px red;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+.mtitl {
+	font-size: 45px;
+	margin-left: 21.5%;
+}
+.kwoche {
+	font-size: 35px;
+}
+table {
+	margin-left: 15%;
+}
+tr, th, td {
+  border: solid 3px;
+  border-color: red;
+}
+th {
+	font-size: 15px;
+	padding: 7px;
+	color    : black;
+}
+td {
+	padding: 5px;
+	font-size: 25px;
+	color: black;
+	background-color: lightsteelblue;
+}

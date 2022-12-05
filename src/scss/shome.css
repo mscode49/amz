@@ -82,6 +82,9 @@ img{
 	margin: auto;
 	list-style: none;
 }
+#btn_all ul {
+	margin-left: 18%;
+}
 #btn_all ul li {
 	float: left;
 	padding: 10px;
@@ -98,10 +101,10 @@ img{
 	40%  { background-color: yellow; }
 }
 #btn_all ul li a{
-	font-size: 20px;
+	font-size: 30px;
 	color: black;
 	text-align: center;
-	padding: 1px;
+	padding: 2px;
 	text-decoration: none;
 	text-shadow: 1px 1.1px 1.3px yellow;
 }
@@ -109,7 +112,6 @@ img{
 	background-color: black;
 	animation  : none;
 }
-
 #btn_all ul li:hover > a{
 	color: white;
 }
@@ -117,12 +119,13 @@ img{
 	font-size: 50px;
 	text-shadow: 1px 2px 1px white;
 	color: red;
+	text-align: center;
 }
 
 
 /*  ################################################################## */
 table {
-	margin-left: 31%;
+	margin-left: 26.5%;
 }
 table, tr, th, td {
   border: solid 3px;
@@ -148,7 +151,9 @@ td {
 .frei {
 	background-color: cyan;
 }
-.son {
-	background-color: black;
-	color: white;
+.krank {
+	background-color: teal;
+}
+.EU-OK {
+	background-color: red;
 }

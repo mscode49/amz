@@ -49,3 +49,8 @@ th, td {
 .frei {
 	background-color: crimson;
 }
+.krank {
+	background-color: yellow;
+	color: black;
+	text-shadow: 1px 1.5px 1px red;
+}

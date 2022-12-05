@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+	background-image: url("../../Amazon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.b0 {
+	font-size: 50px;
+	text-shadow: 1px 2px 1px white;
+	color: red;
+	text-align: center;
+}
+/*  ################################################################## */
+table {
+	margin-left: 26.5%;
+}
+table, tr, th, td {
+  border: solid 3px;
+  border-color: red;
+}
+th {
+	font-size: 30px;
+	padding: 10px;
+	color    : yellow;
+	text-shadow: 0.9px 1px 0.9px red;
+}
+td {
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	background-color: lightsteelblue;
+	text-shadow: 0.9px 1.5px 0.9px white;
+}
+.th1 {
+	background-color: black;
+	color: red;
+}
+.frei {
+	background-color: cyan;
+}
+.krank {
+	background-color: teal;
+}
+.EU-OK {
+	background-color: red;
+}
+.mh1 {
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	text-shadow: 1px 2px 1px black;
+}
+button {
+	font-size: 30px;
+	color: black;
+	text-shadow: 1px 2px 1px red;
+}
